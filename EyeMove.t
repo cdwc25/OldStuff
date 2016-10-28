@@ -1,4 +1,4 @@
-var u, d, l, r : array char of boolean
+var key : array char of boolean
 var x, y : int := 300
 procedure avatar (x : int, y : int, mode : int)
     var x2 : int := x
@@ -27,32 +27,29 @@ procedure avatar (x : int, y : int, mode : int)
 end avatar
 loop
     delay (10)
-    Input.KeyDown (u)
-    Input.KeyDown (d)
-    Input.KeyDown (l)
-    Input.KeyDown (r)
+    Input.KeyDown (key)
     cls
-    if u (KEY_UP_ARROW) and not l (KEY_LEFT_ARROW) and not r (KEY_RIGHT_ARROW) then
+    if key (KEY_UP_ARROW) and not key (KEY_LEFT_ARROW) and not key (KEY_RIGHT_ARROW) then
 	y := y + 1
 	avatar (x, y, 2)
-    elsif d (KEY_DOWN_ARROW) and not l (KEY_LEFT_ARROW) and not r (KEY_RIGHT_ARROW) then
+    elsif key (KEY_DOWN_ARROW) and not key (KEY_LEFT_ARROW) and not key (KEY_RIGHT_ARROW) then
 	y := y - 1
 	avatar (x, y, 4)
-    elsif l (KEY_LEFT_ARROW) and not u (KEY_UP_ARROW) and not d (KEY_DOWN_ARROW) then
+    elsif key (KEY_LEFT_ARROW) and not key (KEY_UP_ARROW) and not key (KEY_DOWN_ARROW) then
 	x := x - 1
 	avatar (x, y, 3)
-    elsif r (KEY_RIGHT_ARROW) and not u (KEY_UP_ARROW) and not d (KEY_DOWN_ARROW) then
+    elsif key (KEY_RIGHT_ARROW) and not key (KEY_UP_ARROW) and not key (KEY_DOWN_ARROW) then
 	x := x + 1
 	avatar (x, y, 1)
-    elsif u (KEY_UP_ARROW) and l (KEY_LEFT_ARROW) then
+    elsif key (KEY_UP_ARROW) and key (KEY_LEFT_ARROW) then
 	y := y + 1
 	x := x - 1
 	avatar (x, y, 6)
-    elsif u (KEY_UP_ARROW) and r (KEY_RIGHT_ARROW) then
+    elsif key (KEY_UP_ARROW) and key (KEY_RIGHT_ARROW) then
 	y := y + 1
 	x := x + 1
 	avatar (x, y, 5)
-    elsif d (KEY_DOWN_ARROW) and l (KEY_LEFT_ARROW) then
+    elsif key (KEY_DOWN_ARROW) and key (KEY_LEFT_ARROW) then
 	y := y - 1
 	x := x - 1
 	avatar (x, y, 8)
