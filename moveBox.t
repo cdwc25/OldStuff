@@ -4,7 +4,6 @@ var x, y : int := 285 % Key Press Sensor Variable
 var c : int
 var size : int := 20
 
-
 function intValid (txt : string, min : int, max : int) : int % Integer Validator
     var v : int
     loop
@@ -21,11 +20,9 @@ function intValid (txt : string, min : int, max : int) : int % Integer Validator
     end loop
 end intValid
 
-
 procedure hero (x : int, y : int, si : int, col : int) % Avatar
     drawfillbox (x - round (si / 2), y - round (si / 2), x + round (si / 2), y + round (si / 2), col)
 end hero
-
 
 procedure movHandler (si : int)
     loop
@@ -41,7 +38,6 @@ procedure movHandler (si : int)
         if x < 0 - round(size / 2) then
             x := 600 + round(size / 2)
         end if
-
 
         if y > 600 + round(size / 2) then
             y := 0 - round(size / 2)
@@ -73,7 +69,6 @@ procedure movHandler (si : int)
         hero (x, y, size, c)
     end loop
 end movHandler
-
 
 % MAIN SEQUENCE
 c := intValid ("What color is your avatar", 0, 255)
