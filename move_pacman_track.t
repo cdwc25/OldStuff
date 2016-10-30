@@ -159,35 +159,35 @@ procedure switch (xA, yA : int, var x1 : array 1 .. * of int, var y1 : array 1 .
             end for
         label 9 : % sWn Corner
             for i : 1 .. ghostN
-                if x1 (i) = xA and y1 (i) = yA and y2 (i) not= 0 then
+                if x1 (i) = xA and y1 (i) = yA and x2 (i) not = 0 then
                     R (i) := Rand.Int (1, 2)
                     case R (i) of
                         label 1 :
                             x2 (i) := 0
                             y2 (i) := 1
                         label 2 :
-                            x2 (i) := -1
-                            y2 (i) := 0
+                            x2 (i) := 0
+                            y2 (i) := -1
                     end case
                 elsif x1 (i) = xA and y1 (i) = yA and y2 (i) = -1 then
                     R (i) := Rand.Int (1, 2)
                     case R (i) of
                         label 1 :
                             x2 (i) := 0
-                            y2 (i) := 1
+                            y2 (i) := -1
                         label 2 :
                             x2 (i) := -1
                             y2 (i) := 0
                     end case
-                elsif x1 (i) = xA and y1 (i) = yA and x2 (i) = 1 then
+                elsif x1 (i) = xA and y1 (i) = yA and y2 (i) = 1 then
                     R (i) := Rand.Int (1, 2)
                     case R (i) of
                         label 1 :
                             x2 (i) := 0
                             y2 (i) := 1
                         label 2 :
-                            x2 (i) := 0
-                            y2 (i) := 1
+                            x2 (i) := -1
+                            y2 (i) := 0
                     end case
                 end if
             end for
