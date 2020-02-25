@@ -1,0 +1,2352 @@
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 5 2016 1:14 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Object Allocated 11 0
+    Object Allocated 20 5001
+    Object Allocated 20 5002
+    View/Window.Set called (graphics:568,300,nobuttonbar,position:500,500)
+    MIOWin_CreateWindowFromAttribs (GUI.T Run Window)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Substitute Run Window 460244 590254 (graphics:568,300,nobuttonbar,position:500,500)
+    Run Window Added 590254 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: WM_ACTIVATE (W)
+    Stop Execution from Run Window
+    Kill Running Program
+    Object Freed -1
+    Debugger Notify Finalize Run
+    Object Freed 5001
+    Object Freed 5002
+    Find Next Error (1) - Text: 500066 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 500066 - Name: N:\Turing\support\lib\guiclass\WidgetModule.tu - Example: <null>
+    Set Turing Values - Window: 500066 - fileno: 0 - sizeptr: 0 - where: 53
+    Set New Text (1) - Text: 2938f98 - size: 12513
+    Set New Text (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Turing Values - Window: 500066 - fileno: 39 - sizeptr: 68d570 - where: 52
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Open File (2) - fileno: 39 - sizeptr: 68d570
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 18
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10147 - slTo:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 313 - C: 18 (x1)
+    Text - sz:456:14213 - slFr:313:18:10147 - slTo:313:18:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 312 - C: 14
+    Text - sz:456:14213 - slFr:10147 - slTo:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10112 - slTo:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 14 (x1)
+    Text - sz:456:14213 - slFr:312:14:10112 - slTo:312:14:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 314 - C: 16
+    Text - sz:456:14213 - slFr:10112 - slTo:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x107)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 311 - C: 26
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 311 - C: 26 (x1)
+    Text - sz:456:14213 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 16
+    Text - sz:456:14213 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10145 - slTo:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 313 - C: 16 (x1)
+    Text - sz:456:14213 - slFr:313:16:10145 - slTo:313:16:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 500066 - Ex: 1 - Args: 0 - Step: 0
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Object Freed 0
+    Debugger Notify Init Run
+    Deallocating object 5002 (free=1)
+    Deallocating object 5001 (free=1)
+    Deallocating object 0 (free=1)
+    Find Next Error (1) - Text: 500066 - Activate: 1
+    Set Selection (1) - Text: 2938f98 - L: 0 - C: 0
+    Text - sz:456:14213 - slFr:313:16:10145 - slTo:313:16:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 314 - C: 16
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x54)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (1) - Text: 2938f98
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (2) - From line: 312 - From col: 0 - To line: 314 - To col: 14
+    Delete Selection (3) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:454:14146 - slFr:312:0:10098 - slTo:312:0:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:453:14145 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:453:14145 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+    Keystroke (2) - sz:452:14144 - slFr:10096 - slTo:10096 - nlA:0
+    Line Starts: 449:14107 450:14126 451:14143 452:14144
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 500066 - SaveAs: 0 - Sel: 0 - fileno: 39 - sizeptr: 68d570
+
+
+Registers
+  EAX=7FFFFFFF  EBX=00000020  ECX=00000000  EDX=FFFFFFFF  ESI=00000005
+  EDI=00000000  EBP=00198C50  ESP=001987EC  EIP=772D097C  FLG=00010206
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    N:\Turing\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.10586.0_none_811bc0006c44242b\COMCTL32.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\shcore.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\windows.storage.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\powrprof.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\FirewallAPI.dll
+    C:\Windows\SYSTEM32\NETAPI32.dll
+    C:\Windows\SYSTEM32\winmmbase.dll
+    C:\Windows\SYSTEM32\DAVHLPR.DLL
+    C:\Windows\SYSTEM32\IMM32.DLL
+    C:\Windows\SYSTEM32\fwbase.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\SYSTEM32\psapi.dll
+    C:\Windows\SYSTEM32\ws2_32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_d3c2e4e965da4528\comctl32.DLL
+    C:\Windows\SYSTEM32\DINPUT.DLL
+    C:\Windows\SYSTEM32\HID.DLL
+    C:\Windows\SYSTEM32\SETUPAPI.DLL
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\WINTRUST.dll
+    C:\Windows\SYSTEM32\MSASN1.dll
+    C:\Windows\SYSTEM32\CRYPT32.dll
+    C:\Windows\SYSTEM32\MMDevAPI.DLL
+    C:\Windows\SYSTEM32\PROPSYS.dll
+    C:\Windows\SYSTEM32\OLEAUT32.dll
+    C:\Windows\SYSTEM32\wdmaud.drv
+    C:\Windows\SYSTEM32\ksuser.dll
+    C:\Windows\SYSTEM32\AVRT.dll
+    C:\Windows\SYSTEM32\AUDIOSES.DLL
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\msacm32.drv
+    C:\Windows\SYSTEM32\MSACM32.dll
+    C:\Windows\SYSTEM32\midimap.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:772d097c Ret=772cba40 Frame=00198c50 Stack=001987ec
+    Parameters (0x00198c74 0x001993ee 0x00000000 0x00198d20)
+    Unknown module, wcstombs() + 7132 byte(s)
+  1 .V PC=0023:772cba40 Ret=772cb9b8 Frame=00198c94 Stack=00198c58
+    Parameters (0x009027aa 0x000000cb 0x001993e8 0x00000000)
+    Unknown module, vsnwprintf() + 0160 byte(s)
+  2 .V PC=0023:772cb9b8 Ret=772a958c Frame=00198cb0 Stack=00198c9c
+    Parameters (0x009027aa 0x000000cb 0x001993e8 0x00198d20)
+    Unknown module, vsnwprintf() + 0024 byte(s)
+  3 .V PC=0023:772a958c Ret=772b148b Frame=00198cd4 Stack=00198cb8
+    Parameters (0x00198cf8 0x001993e8 0x00198d20 0x00000005)
+    Unknown module, RtlQueryPackageIdentity() + 0332 byte(s)
+  4 .V PC=0023:772b148b Ret=772b12ce Frame=00198d00 Stack=00198cdc
+    Parameters (0x009027aa 0x000000cc 0x00198d80 0x00000000)
+    Unknown module, RtlFormatMessageEx() + 1291 byte(s)
+  5 .V PC=0023:772b12ce Ret=75274890 Frame=00199430 Stack=00198d08
+    Parameters (0x00949508 0x00000000 0x00199400 0xc1002801)
+    Unknown module, RtlFormatMessageEx() + 0846 byte(s)
+  6 .V PC=0023:75274890 Ret=75291a15 Frame=001994d0 Stack=00199438
+    Parameters (0x00949508 0x00000000 0x00000400 0x0019a94c)
+    Unknown module, FormatMessageW() + 0352 byte(s)
+  7 .V PC=0023:75291a15 Ret=0042d631 Frame=00199518 Stack=001994d8
+    Parameters (0x00000500 0x0019954c 0x00000000 0x00000400)
+    Unknown module, FormatMessageA() + 0149 byte(s)
+  8 .V PC=0023:0042d631 Ret=0041ae16 Frame=0019a958 Stack=00199520
+    Parameters (0x00500066 0x00000000 0x00001fdd 0x0000208c)
+    P:\ready\src\edgui.c, EdGUI_Message1 (), Line 1515+0040 byte(s)
+  9 .V PC=0023:0041ae16 Ret=00436627 Frame=0019c9d4 Stack=0019a960
+    Parameters (0x00500066 0x0019d20c 0x02938f98 0x00000000)
+    P:\ready\src\edfile.c, EdFile_SaveTextToFile (), Line 1346+0053 byte(s)
+ 10 .V PC=0023:00436627 Ret=004312d5 Frame=0019da34 Stack=0019c9dc
+    Parameters (0x00500066 0x00000000 0x00000000 0x0019ded0)
+    P:\ready\src\eddisp.c, MyFileSave (), Line 6183+0047 byte(s)
+ 11 .V PC=0023:004312d5 Ret=0042fc22 Frame=0019de70 Stack=0019da3c
+    Parameters (0x00500066 0x000003ed 0x0042f546 0x000103ed)
+    P:\ready\src\eddisp.c, MyCommandHandler (), Line 2912+0013 byte(s)
+ 12 .V PC=0023:0042fc22 Ret=0042f5a1 Frame=0019ded0 Stack=0019de78
+    Parameters (0x00500066 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyCommonMessageHandler (), Line 3494+0019 byte(s)
+ 13 .V PC=0023:0042f5a1 Ret=754084e3 Frame=0019def8 Stack=0019ded8
+    Parameters (0x00500066 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1968+0025 byte(s)
+ 14 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019df24 Stack=0019df00
+    Parameters (0x0042f546 0x00500066 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 15 .V PC=0023:753e6c30 Ret=753e612a Frame=0019dfcc Stack=0019df2c
+    Parameters (0x0042f546 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 16 .V PC=0023:753e612a Ret=753fa274 Frame=0019e034 Stack=0019dfd4
+    Parameters (0x01143660 0x00000000 0x00000001 0x00000001)
+    Unknown module, SendMessageW() + 0922 byte(s)
+ 17 .V PC=0023:753fa274 Ret=004201f7 Frame=0019e054 Stack=0019e03c
+    Parameters (0x00500066 0x00000111 0x000103ed 0x00000001)
+    Unknown module, SendMessageA() + 0084 byte(s)
+ 18 .V PC=0023:004201f7 Ret=754084e3 Frame=0019e08c Stack=0019e05c
+    Parameters (0x00030468 0x00000111 0x000103ed 0x00000000)
+    P:\ready\src\edwin.c, MyEditorWindowProcedure (), Line 1497+0032 byte(s)
+ 19 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019e0b8 Stack=0019e094
+    Parameters (0x0041ff99 0x00030468 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 20 .V PC=0023:753e6c30 Ret=753e6810 Frame=0019e160 Stack=0019e0c0
+    Parameters (0x0041ff99 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 21 .V PC=0023:753e6810 Ret=753ed159 Frame=0019e1c0 Stack=0019e168
+    Parameters (0x011218f0 0x00000000 0x00000111 0x000103ed)
+    Unknown module, DispatchMessageW() + 1328 byte(s)
+ 22 .V PC=0023:753ed159 Ret=772c8f36 Frame=0019e200 Stack=0019e1c8
+    Parameters (0x0019e21c 0x00000020 0x0019ff70 0x772c8e80)
+    Unknown module, PeekMessageW() + 1369 byte(s)
+ 23 .V PC=0023:772c8f36 Ret=004174e5 Frame=0019e258 Stack=0019e208
+    Parameters (0x00030468 0x02d0049f 0x0019e280 0x0019e27c)
+    Unknown module, KiUserCallbackDispatcher() + 0054 byte(s)
+ 24 .V PC=0023:004174e5 Ret=004174a1 Frame=0019e270 Stack=0019e260
+    Parameters (0x0019e280 0x0019e2a8 0x00500066 0x00000100)
+    P:\ready\src\ed.c, MyProcessMessage (), Line 1850+0041 byte(s)
+ 25 .V PC=0023:004174a1 Ret=00415862 Frame=0019e2a0 Stack=0019e278
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    P:\ready\src\ed.c, MyProcessEvents (), Line 1826+0009 byte(s)
+ 26 .V PC=0023:00415862 Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x00901b97 0x00000001)
+    P:\ready\src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 27 .V PC=0023:00401126 Ret=750938f4 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x002bf000 0x750938d0 0xc3269b69 0x0019ffdc)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 28 .V PC=0023:750938f4 Ret=772b5663 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x002bf000 0xc10043d5 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+ 29 .V PC=0023:772b5663 Ret=772b562e Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x772dbb67 0x00000000 0x00000000)
+    Unknown module, RtlUnicodeStringToInteger() + 0595 byte(s)
+ 30 .V PC=0023:772b562e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x002bf000 0x00000000 0x78746341)
+    Unknown module, RtlUnicodeStringToInteger() + 0542 byte(s)
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 5 2016 1:14 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Object Allocated 11 0
+    Object Allocated 20 5001
+    Object Allocated 20 5002
+    View/Window.Set called (graphics:568,300,nobuttonbar,position:500,500)
+    MIOWin_CreateWindowFromAttribs (GUI.T Run Window)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Substitute Run Window 460244 590254 (graphics:568,300,nobuttonbar,position:500,500)
+    Run Window Added 590254 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: WM_ACTIVATE (W)
+    Stop Execution from Run Window
+    Kill Running Program
+    Object Freed -1
+    Debugger Notify Finalize Run
+    Object Freed 5001
+    Object Freed 5002
+    Find Next Error (1) - Text: 500066 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 500066 - Name: N:\Turing\support\lib\guiclass\WidgetModule.tu - Example: <null>
+    Set Turing Values - Window: 500066 - fileno: 0 - sizeptr: 0 - where: 53
+    Set New Text (1) - Text: 2938f98 - size: 12513
+    Set New Text (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Turing Values - Window: 500066 - fileno: 39 - sizeptr: 68d570 - where: 52
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Open File (2) - fileno: 39 - sizeptr: 68d570
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 18
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10147 - slTo:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 313 - C: 18 (x1)
+    Text - sz:456:14213 - slFr:313:18:10147 - slTo:313:18:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 312 - C: 14
+    Text - sz:456:14213 - slFr:10147 - slTo:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10112 - slTo:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 14 (x1)
+    Text - sz:456:14213 - slFr:312:14:10112 - slTo:312:14:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 314 - C: 16
+    Text - sz:456:14213 - slFr:10112 - slTo:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x107)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 311 - C: 26
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 311 - C: 26 (x1)
+    Text - sz:456:14213 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 16
+    Text - sz:456:14213 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10145 - slTo:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 313 - C: 16 (x1)
+    Text - sz:456:14213 - slFr:313:16:10145 - slTo:313:16:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 500066 - Ex: 1 - Args: 0 - Step: 0
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Object Freed 0
+    Debugger Notify Init Run
+    Deallocating object 5002 (free=1)
+    Deallocating object 5001 (free=1)
+    Deallocating object 0 (free=1)
+    Find Next Error (1) - Text: 500066 - Activate: 1
+    Set Selection (1) - Text: 2938f98 - L: 0 - C: 0
+    Text - sz:456:14213 - slFr:313:16:10145 - slTo:313:16:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 314 - C: 16
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x54)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (1) - Text: 2938f98
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (2) - From line: 312 - From col: 0 - To line: 314 - To col: 14
+    Delete Selection (3) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:454:14146 - slFr:312:0:10098 - slTo:312:0:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:453:14145 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:453:14145 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+    Keystroke (2) - sz:452:14144 - slFr:10096 - slTo:10096 - nlA:0
+    Line Starts: 449:14107 450:14126 451:14143 452:14144
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 500066 - SaveAs: 0 - Sel: 0 - fileno: 39 - sizeptr: 68d570
+
+
+Registers
+  EAX=7FFFFFFF  EBX=00000020  ECX=00000000  EDX=FFFFFFFF  ESI=00000005
+  EDI=00000000  EBP=00198C50  ESP=001987EC  EIP=772D097C  FLG=00010206
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    N:\Turing\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.10586.0_none_811bc0006c44242b\COMCTL32.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\shcore.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\windows.storage.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\powrprof.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\FirewallAPI.dll
+    C:\Windows\SYSTEM32\NETAPI32.dll
+    C:\Windows\SYSTEM32\winmmbase.dll
+    C:\Windows\SYSTEM32\DAVHLPR.DLL
+    C:\Windows\SYSTEM32\IMM32.DLL
+    C:\Windows\SYSTEM32\fwbase.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\SYSTEM32\psapi.dll
+    C:\Windows\SYSTEM32\ws2_32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_d3c2e4e965da4528\comctl32.DLL
+    C:\Windows\SYSTEM32\DINPUT.DLL
+    C:\Windows\SYSTEM32\HID.DLL
+    C:\Windows\SYSTEM32\SETUPAPI.DLL
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\WINTRUST.dll
+    C:\Windows\SYSTEM32\MSASN1.dll
+    C:\Windows\SYSTEM32\CRYPT32.dll
+    C:\Windows\SYSTEM32\MMDevAPI.DLL
+    C:\Windows\SYSTEM32\PROPSYS.dll
+    C:\Windows\SYSTEM32\OLEAUT32.dll
+    C:\Windows\SYSTEM32\wdmaud.drv
+    C:\Windows\SYSTEM32\ksuser.dll
+    C:\Windows\SYSTEM32\AVRT.dll
+    C:\Windows\SYSTEM32\AUDIOSES.DLL
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\msacm32.drv
+    C:\Windows\SYSTEM32\MSACM32.dll
+    C:\Windows\SYSTEM32\midimap.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:772d097c Ret=772cba40 Frame=00198c50 Stack=001987ec
+    Parameters (0x00198c74 0x001993ee 0x00000000 0x00198d20)
+    Unknown module, wcstombs() + 7132 byte(s)
+  1 .V PC=0023:772cba40 Ret=772cb9b8 Frame=00198c94 Stack=00198c58
+    Parameters (0x009027aa 0x000000cb 0x001993e8 0x00000000)
+    Unknown module, vsnwprintf() + 0160 byte(s)
+  2 .V PC=0023:772cb9b8 Ret=772a958c Frame=00198cb0 Stack=00198c9c
+    Parameters (0x009027aa 0x000000cb 0x001993e8 0x00198d20)
+    Unknown module, vsnwprintf() + 0024 byte(s)
+  3 .V PC=0023:772a958c Ret=772b148b Frame=00198cd4 Stack=00198cb8
+    Parameters (0x00198cf8 0x001993e8 0x00198d20 0x00000005)
+    Unknown module, RtlQueryPackageIdentity() + 0332 byte(s)
+  4 .V PC=0023:772b148b Ret=772b12ce Frame=00198d00 Stack=00198cdc
+    Parameters (0x009027aa 0x000000cc 0x00198d80 0x00000000)
+    Unknown module, RtlFormatMessageEx() + 1291 byte(s)
+  5 .V PC=0023:772b12ce Ret=75274890 Frame=00199430 Stack=00198d08
+    Parameters (0x00949508 0x00000000 0x00199400 0xc1002801)
+    Unknown module, RtlFormatMessageEx() + 0846 byte(s)
+  6 .V PC=0023:75274890 Ret=75291a15 Frame=001994d0 Stack=00199438
+    Parameters (0x00949508 0x00000000 0x00000400 0x0019a94c)
+    Unknown module, FormatMessageW() + 0352 byte(s)
+  7 .V PC=0023:75291a15 Ret=0042d631 Frame=00199518 Stack=001994d8
+    Parameters (0x00000500 0x0019954c 0x00000000 0x00000400)
+    Unknown module, FormatMessageA() + 0149 byte(s)
+  8 .V PC=0023:0042d631 Ret=0041ae16 Frame=0019a958 Stack=00199520
+    Parameters (0x00500066 0x00000000 0x00001fdd 0x0000208c)
+    P:\ready\src\edgui.c, EdGUI_Message1 (), Line 1515+0040 byte(s)
+  9 .V PC=0023:0041ae16 Ret=00436627 Frame=0019c9d4 Stack=0019a960
+    Parameters (0x00500066 0x0019d20c 0x02938f98 0x00000000)
+    P:\ready\src\edfile.c, EdFile_SaveTextToFile (), Line 1346+0053 byte(s)
+ 10 .V PC=0023:00436627 Ret=004312d5 Frame=0019da34 Stack=0019c9dc
+    Parameters (0x00500066 0x00000000 0x00000000 0x0019ded0)
+    P:\ready\src\eddisp.c, MyFileSave (), Line 6183+0047 byte(s)
+ 11 .V PC=0023:004312d5 Ret=0042fc22 Frame=0019de70 Stack=0019da3c
+    Parameters (0x00500066 0x000003ed 0x0042f546 0x000103ed)
+    P:\ready\src\eddisp.c, MyCommandHandler (), Line 2912+0013 byte(s)
+ 12 .V PC=0023:0042fc22 Ret=0042f5a1 Frame=0019ded0 Stack=0019de78
+    Parameters (0x00500066 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyCommonMessageHandler (), Line 3494+0019 byte(s)
+ 13 .V PC=0023:0042f5a1 Ret=754084e3 Frame=0019def8 Stack=0019ded8
+    Parameters (0x00500066 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1968+0025 byte(s)
+ 14 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019df24 Stack=0019df00
+    Parameters (0x0042f546 0x00500066 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 15 .V PC=0023:753e6c30 Ret=753e612a Frame=0019dfcc Stack=0019df2c
+    Parameters (0x0042f546 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 16 .V PC=0023:753e612a Ret=753fa274 Frame=0019e034 Stack=0019dfd4
+    Parameters (0x01143660 0x00000000 0x00000001 0x00000001)
+    Unknown module, SendMessageW() + 0922 byte(s)
+ 17 .V PC=0023:753fa274 Ret=004201f7 Frame=0019e054 Stack=0019e03c
+    Parameters (0x00500066 0x00000111 0x000103ed 0x00000001)
+    Unknown module, SendMessageA() + 0084 byte(s)
+ 18 .V PC=0023:004201f7 Ret=754084e3 Frame=0019e08c Stack=0019e05c
+    Parameters (0x00030468 0x00000111 0x000103ed 0x00000000)
+    P:\ready\src\edwin.c, MyEditorWindowProcedure (), Line 1497+0032 byte(s)
+ 19 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019e0b8 Stack=0019e094
+    Parameters (0x0041ff99 0x00030468 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 20 .V PC=0023:753e6c30 Ret=753e6810 Frame=0019e160 Stack=0019e0c0
+    Parameters (0x0041ff99 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 21 .V PC=0023:753e6810 Ret=753ed159 Frame=0019e1c0 Stack=0019e168
+    Parameters (0x011218f0 0x00000000 0x00000111 0x000103ed)
+    Unknown module, DispatchMessageW() + 1328 byte(s)
+ 22 .V PC=0023:753ed159 Ret=772c8f36 Frame=0019e200 Stack=0019e1c8
+    Parameters (0x0019e21c 0x00000020 0x0019ff70 0x772c8e80)
+    Unknown module, PeekMessageW() + 1369 byte(s)
+ 23 .V PC=0023:772c8f36 Ret=004174e5 Frame=0019e258 Stack=0019e208
+    Parameters (0x00030468 0x02d0049f 0x0019e280 0x0019e27c)
+    Unknown module, KiUserCallbackDispatcher() + 0054 byte(s)
+ 24 .V PC=0023:004174e5 Ret=004174a1 Frame=0019e270 Stack=0019e260
+    Parameters (0x0019e280 0x0019e2a8 0x00500066 0x00000100)
+    P:\ready\src\ed.c, MyProcessMessage (), Line 1850+0041 byte(s)
+ 25 .V PC=0023:004174a1 Ret=00415862 Frame=0019e2a0 Stack=0019e278
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    P:\ready\src\ed.c, MyProcessEvents (), Line 1826+0009 byte(s)
+ 26 .V PC=0023:00415862 Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x00901b97 0x00000001)
+    P:\ready\src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 27 .V PC=0023:00401126 Ret=750938f4 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x002bf000 0x750938d0 0xc3269b69 0x0019ffdc)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 28 .V PC=0023:750938f4 Ret=772b5663 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x002bf000 0xc10043d5 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+ 29 .V PC=0023:772b5663 Ret=772b562e Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x772dbb67 0x00000000 0x00000000)
+    Unknown module, RtlUnicodeStringToInteger() + 0595 byte(s)
+ 30 .V PC=0023:772b562e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x002bf000 0x00000000 0x78746341)
+    Unknown module, RtlUnicodeStringToInteger() + 0542 byte(s)
+
+------------------------------------------------------
+
+Crashed in Crash Handler!
+*** FATAL INTERNAL ERROR in Turing ***
+Date: Dec 5 2016 1:14 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Previous Operations:
+    Object Allocated 11 0
+    Object Allocated 20 5001
+    Object Allocated 20 5002
+    View/Window.Set called (graphics:568,300,nobuttonbar,position:500,500)
+    MIOWin_CreateWindowFromAttribs (GUI.T Run Window)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Substitute Run Window 460244 590254 (graphics:568,300,nobuttonbar,position:500,500)
+    Run Window Added 590254 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: WM_ACTIVATE (W)
+    Stop Execution from Run Window
+    Kill Running Program
+    Object Freed -1
+    Debugger Notify Finalize Run
+    Object Freed 5001
+    Object Freed 5002
+    Find Next Error (1) - Text: 500066 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 500066 - Name: N:\Turing\support\lib\guiclass\WidgetModule.tu - Example: <null>
+    Set Turing Values - Window: 500066 - fileno: 0 - sizeptr: 0 - where: 53
+    Set New Text (1) - Text: 2938f98 - size: 12513
+    Set New Text (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Turing Values - Window: 500066 - fileno: 39 - sizeptr: 68d570 - where: 52
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Open File (2) - fileno: 39 - sizeptr: 68d570
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 18
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10147 - slTo:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 313 - C: 18 (x1)
+    Text - sz:456:14213 - slFr:313:18:10147 - slTo:313:18:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 312 - C: 14
+    Text - sz:456:14213 - slFr:10147 - slTo:10147 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10112 - slTo:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 14 (x1)
+    Text - sz:456:14213 - slFr:312:14:10112 - slTo:312:14:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 314 - C: 16
+    Text - sz:456:14213 - slFr:10112 - slTo:10112 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x107)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 311 - C: 26
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 311 - C: 26 (x1)
+    Text - sz:456:14213 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 313 - C: 16
+    Text - sz:456:14213 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10145 - slTo:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 313 - C: 16 (x1)
+    Text - sz:456:14213 - slFr:313:16:10145 - slTo:313:16:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 500066 - Ex: 1 - Args: 0 - Step: 0
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Object Freed 0
+    Debugger Notify Init Run
+    Deallocating object 5002 (free=1)
+    Deallocating object 5001 (free=1)
+    Deallocating object 0 (free=1)
+    Find Next Error (1) - Text: 500066 - Activate: 1
+    Set Selection (1) - Text: 2938f98 - L: 0 - C: 0
+    Text - sz:456:14213 - slFr:313:16:10145 - slTo:313:16:10145 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 2938f98 - L: 314 - C: 16
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x54)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 2938f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (1) - Text: 2938f98
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (2) - From line: 312 - From col: 0 - To line: 314 - To col: 14
+    Delete Selection (3) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:454:14146 - slFr:312:0:10098 - slTo:312:0:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:453:14145 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 2938f98 - ch: 8
+    Text - sz:453:14145 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+    Keystroke (2) - sz:452:14144 - slFr:10096 - slTo:10096 - nlA:0
+    Line Starts: 449:14107 450:14126 451:14143 452:14144
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 500066 - SaveAs: 0 - Sel: 0 - fileno: 39 - sizeptr: 68d570
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "H:\Computer Studies\Practice Programs\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = Wrong window type for call (0/108) (15201)
+   File = P:\turing\src\miowin.c
+   Line = 1441
+
+All unsaved open files will be saved with a ".sav" or ".sv#" extension.
+
+TROUBLE!  You're already in the crash handler!
+
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 5 2016 1:15 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Create File (W1) - Name: H:\Computer Studies\Practice Programs\GUI.T - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: b0454 - Name: H:\Computer Studies\Practice Programs\GUI.T - Example: <null>
+    Set New Text (1) - Text: e08f98 - size: 2136
+    Set New Text (2) - sz:66:2070 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 63:2029 64:2034 65:2061 66:2070
+    Set Turing Values - Window: b0454 - fileno: 1 - sizeptr: 68ab48 - where: 52
+    Open File (2) - fileno: 1 - sizeptr: 68ab48
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: b0454 - Ex: 1 - Args: 0 - Step: 0
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    MIO_Init_Run called
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Object Allocated 20 5001
+    Object Allocated 20 5002
+    View/Window.Set called (graphics:568,300,nobuttonbar,position:500,500)
+    MIOWin_CreateWindowFromAttribs (GUI.T Run Window)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Substitute Run Window 2102ee 370478 (graphics:568,300,nobuttonbar,position:500,500)
+    Run Window Added 370478 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: WM_ACTIVATE (W)
+    Stop Execution from Run Window
+    Kill Running Program
+    Object Freed -1
+    Debugger Notify Finalize Run
+    Object Freed 5001
+    Object Freed 5002
+    Find Next Error (1) - Text: b0454 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: b0454 - Name: N:\Turing\support\lib\guiclass\WidgetModule.tu - Example: <null>
+    Set Turing Values - Window: b0454 - fileno: 0 - sizeptr: 0 - where: 53
+    Set New Text (1) - Text: e08f98 - size: 12513
+    Set New Text (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Turing Values - Window: b0454 - fileno: 39 - sizeptr: 68d570 - where: 52
+    Set Selection (1) - Text: e08f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Open File (2) - fileno: 39 - sizeptr: 68d570
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: e08f98 - L: 314 - C: 15
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: e08f98 - L: 312 - C: 0 (x72)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: e08f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: e08f98 - ch: 8
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (1) - Text: e08f98
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (2) - From line: 312 - From col: 0 - To line: 314 - To col: 14
+    Delete Selection (3) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: b0454 - SaveAs: 0 - Sel: 0 - fileno: 39 - sizeptr: 68d570
+
+
+Registers
+  EAX=7FFFFFFF  EBX=00000020  ECX=00000000  EDX=FFFFFFFF  ESI=00000005
+  EDI=00000000  EBP=00198C50  ESP=001987EC  EIP=772D097C  FLG=00010206
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    N:\Turing\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.10586.0_none_811bc0006c44242b\COMCTL32.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\shcore.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\windows.storage.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\powrprof.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\FirewallAPI.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\NETAPI32.dll
+    C:\Windows\SYSTEM32\winmmbase.dll
+    C:\Windows\SYSTEM32\DAVHLPR.DLL
+    C:\Windows\SYSTEM32\IMM32.DLL
+    C:\Windows\SYSTEM32\fwbase.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\SYSTEM32\psapi.dll
+    C:\Windows\SYSTEM32\ws2_32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_d3c2e4e965da4528\comctl32.DLL
+    C:\Windows\SYSTEM32\DINPUT.DLL
+    C:\Windows\SYSTEM32\HID.DLL
+    C:\Windows\SYSTEM32\SETUPAPI.DLL
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\WINTRUST.dll
+    C:\Windows\SYSTEM32\MSASN1.dll
+    C:\Windows\SYSTEM32\CRYPT32.dll
+    C:\Windows\SYSTEM32\MMDevAPI.DLL
+    C:\Windows\SYSTEM32\PROPSYS.dll
+    C:\Windows\SYSTEM32\OLEAUT32.dll
+    C:\Windows\SYSTEM32\wdmaud.drv
+    C:\Windows\SYSTEM32\ksuser.dll
+    C:\Windows\SYSTEM32\AVRT.dll
+    C:\Windows\SYSTEM32\AUDIOSES.DLL
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\msacm32.drv
+    C:\Windows\SYSTEM32\MSACM32.dll
+    C:\Windows\SYSTEM32\midimap.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:772d097c Ret=772cba40 Frame=00198c50 Stack=001987ec
+    Parameters (0x00198c74 0x001993ee 0x00000000 0x00198d20)
+    Unknown module, wcstombs() + 7132 byte(s)
+  1 .V PC=0023:772cba40 Ret=772cb9b8 Frame=00198c94 Stack=00198c58
+    Parameters (0x00a00fd2 0x000000cb 0x001993e8 0x00000000)
+    Unknown module, vsnwprintf() + 0160 byte(s)
+  2 .V PC=0023:772cb9b8 Ret=772a958c Frame=00198cb0 Stack=00198c9c
+    Parameters (0x00a00fd2 0x000000cb 0x001993e8 0x00198d20)
+    Unknown module, vsnwprintf() + 0024 byte(s)
+  3 .V PC=0023:772a958c Ret=772b148b Frame=00198cd4 Stack=00198cb8
+    Parameters (0x00198cf8 0x001993e8 0x00198d20 0x00000005)
+    Unknown module, RtlQueryPackageIdentity() + 0332 byte(s)
+  4 .V PC=0023:772b148b Ret=772b12ce Frame=00198d00 Stack=00198cdc
+    Parameters (0x00a00fd2 0x000000cc 0x00198d80 0x00000000)
+    Unknown module, RtlFormatMessageEx() + 1291 byte(s)
+  5 .V PC=0023:772b12ce Ret=75274890 Frame=00199430 Stack=00198d08
+    Parameters (0x00a00ef8 0x00000000 0x00199400 0x8e5ee601)
+    Unknown module, RtlFormatMessageEx() + 0846 byte(s)
+  6 .V PC=0023:75274890 Ret=75291a15 Frame=001994d0 Stack=00199438
+    Parameters (0x00a00ef8 0x00000000 0x00000400 0x0019a94c)
+    Unknown module, FormatMessageW() + 0352 byte(s)
+  7 .V PC=0023:75291a15 Ret=0042d631 Frame=00199518 Stack=001994d8
+    Parameters (0x00000500 0x0019954c 0x00000000 0x00000400)
+    Unknown module, FormatMessageA() + 0149 byte(s)
+  8 .V PC=0023:0042d631 Ret=0041ae16 Frame=0019a958 Stack=00199520
+    Parameters (0x000b0454 0x00000000 0x00001fdd 0x0000208c)
+    P:\ready\src\edgui.c, EdGUI_Message1 (), Line 1515+0040 byte(s)
+  9 .V PC=0023:0041ae16 Ret=00436627 Frame=0019c9d4 Stack=0019a960
+    Parameters (0x000b0454 0x0019d20c 0x00e08f98 0x00000000)
+    P:\ready\src\edfile.c, EdFile_SaveTextToFile (), Line 1346+0053 byte(s)
+ 10 .V PC=0023:00436627 Ret=004312d5 Frame=0019da34 Stack=0019c9dc
+    Parameters (0x000b0454 0x00000000 0x00000000 0x0019ded0)
+    P:\ready\src\eddisp.c, MyFileSave (), Line 6183+0047 byte(s)
+ 11 .V PC=0023:004312d5 Ret=0042fc22 Frame=0019de70 Stack=0019da3c
+    Parameters (0x000b0454 0x000003ed 0x0042f546 0x000103ed)
+    P:\ready\src\eddisp.c, MyCommandHandler (), Line 2912+0013 byte(s)
+ 12 .V PC=0023:0042fc22 Ret=0042f5a1 Frame=0019ded0 Stack=0019de78
+    Parameters (0x000b0454 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyCommonMessageHandler (), Line 3494+0019 byte(s)
+ 13 .V PC=0023:0042f5a1 Ret=754084e3 Frame=0019def8 Stack=0019ded8
+    Parameters (0x000b0454 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1968+0025 byte(s)
+ 14 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019df24 Stack=0019df00
+    Parameters (0x0042f546 0x000b0454 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 15 .V PC=0023:753e6c30 Ret=753e612a Frame=0019dfcc Stack=0019df2c
+    Parameters (0x0042f546 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 16 .V PC=0023:753e612a Ret=753fa274 Frame=0019e034 Stack=0019dfd4
+    Parameters (0x012d38e0 0x00000000 0x00000001 0x00000001)
+    Unknown module, SendMessageW() + 0922 byte(s)
+ 17 .V PC=0023:753fa274 Ret=004201f7 Frame=0019e054 Stack=0019e03c
+    Parameters (0x000b0454 0x00000111 0x000103ed 0x00000001)
+    Unknown module, SendMessageA() + 0084 byte(s)
+ 18 .V PC=0023:004201f7 Ret=754084e3 Frame=0019e08c Stack=0019e05c
+    Parameters (0x00040448 0x00000111 0x000103ed 0x00000000)
+    P:\ready\src\edwin.c, MyEditorWindowProcedure (), Line 1497+0032 byte(s)
+ 19 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019e0b8 Stack=0019e094
+    Parameters (0x0041ff99 0x00040448 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 20 .V PC=0023:753e6c30 Ret=753e6810 Frame=0019e160 Stack=0019e0c0
+    Parameters (0x0041ff99 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 21 .V PC=0023:753e6810 Ret=753ed159 Frame=0019e1c0 Stack=0019e168
+    Parameters (0x012d1680 0x00000000 0x00000111 0x000103ed)
+    Unknown module, DispatchMessageW() + 1328 byte(s)
+ 22 .V PC=0023:753ed159 Ret=772c8f36 Frame=0019e200 Stack=0019e1c8
+    Parameters (0x0019e21c 0x00000020 0x0019ff70 0x772c8e80)
+    Unknown module, PeekMessageW() + 1369 byte(s)
+ 23 .V PC=0023:772c8f36 Ret=004174e5 Frame=0019e258 Stack=0019e208
+    Parameters (0x00040448 0x01230495 0x0019e280 0x0019e27c)
+    Unknown module, KiUserCallbackDispatcher() + 0054 byte(s)
+ 24 .V PC=0023:004174e5 Ret=004174a1 Frame=0019e270 Stack=0019e260
+    Parameters (0x0019e280 0x0019e2a8 0x000b0454 0x00000100)
+    P:\ready\src\ed.c, MyProcessMessage (), Line 1850+0041 byte(s)
+ 25 .V PC=0023:004174a1 Ret=00415862 Frame=0019e2a0 Stack=0019e278
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    P:\ready\src\ed.c, MyProcessEvents (), Line 1826+0009 byte(s)
+ 26 .V PC=0023:00415862 Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x009c1b97 0x00000001)
+    P:\ready\src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 27 .V PC=0023:00401126 Ret=750938f4 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x00334000 0x750938d0 0x8c77b760 0x0019ffdc)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 28 .V PC=0023:750938f4 Ret=772b5663 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x00334000 0x8e5e8dbc 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+ 29 .V PC=0023:772b5663 Ret=772b562e Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x772dbb7d 0x00000000 0x00000000)
+    Unknown module, RtlUnicodeStringToInteger() + 0595 byte(s)
+ 30 .V PC=0023:772b562e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x00334000 0x00000000 0x78746341)
+    Unknown module, RtlUnicodeStringToInteger() + 0542 byte(s)
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 5 2016 1:15 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Create File (W1) - Name: H:\Computer Studies\Practice Programs\GUI.T - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: b0454 - Name: H:\Computer Studies\Practice Programs\GUI.T - Example: <null>
+    Set New Text (1) - Text: e08f98 - size: 2136
+    Set New Text (2) - sz:66:2070 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 63:2029 64:2034 65:2061 66:2070
+    Set Turing Values - Window: b0454 - fileno: 1 - sizeptr: 68ab48 - where: 52
+    Open File (2) - fileno: 1 - sizeptr: 68ab48
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: b0454 - Ex: 1 - Args: 0 - Step: 0
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    MIO_Init_Run called
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Object Allocated 20 5001
+    Object Allocated 20 5002
+    View/Window.Set called (graphics:568,300,nobuttonbar,position:500,500)
+    MIOWin_CreateWindowFromAttribs (GUI.T Run Window)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Substitute Run Window 2102ee 370478 (graphics:568,300,nobuttonbar,position:500,500)
+    Run Window Added 370478 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: WM_ACTIVATE (W)
+    Stop Execution from Run Window
+    Kill Running Program
+    Object Freed -1
+    Debugger Notify Finalize Run
+    Object Freed 5001
+    Object Freed 5002
+    Find Next Error (1) - Text: b0454 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: b0454 - Name: N:\Turing\support\lib\guiclass\WidgetModule.tu - Example: <null>
+    Set Turing Values - Window: b0454 - fileno: 0 - sizeptr: 0 - where: 53
+    Set New Text (1) - Text: e08f98 - size: 12513
+    Set New Text (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Turing Values - Window: b0454 - fileno: 39 - sizeptr: 68d570 - where: 52
+    Set Selection (1) - Text: e08f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Open File (2) - fileno: 39 - sizeptr: 68d570
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: e08f98 - L: 314 - C: 15
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: e08f98 - L: 312 - C: 0 (x72)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: e08f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: e08f98 - ch: 8
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (1) - Text: e08f98
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (2) - From line: 312 - From col: 0 - To line: 314 - To col: 14
+    Delete Selection (3) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: b0454 - SaveAs: 0 - Sel: 0 - fileno: 39 - sizeptr: 68d570
+
+
+Registers
+  EAX=7FFFFFFF  EBX=00000020  ECX=00000000  EDX=FFFFFFFF  ESI=00000005
+  EDI=00000000  EBP=00198C50  ESP=001987EC  EIP=772D097C  FLG=00010206
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    N:\Turing\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.10586.0_none_811bc0006c44242b\COMCTL32.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\shcore.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\windows.storage.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\powrprof.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\FirewallAPI.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\NETAPI32.dll
+    C:\Windows\SYSTEM32\winmmbase.dll
+    C:\Windows\SYSTEM32\DAVHLPR.DLL
+    C:\Windows\SYSTEM32\IMM32.DLL
+    C:\Windows\SYSTEM32\fwbase.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\SYSTEM32\psapi.dll
+    C:\Windows\SYSTEM32\ws2_32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_d3c2e4e965da4528\comctl32.DLL
+    C:\Windows\SYSTEM32\DINPUT.DLL
+    C:\Windows\SYSTEM32\HID.DLL
+    C:\Windows\SYSTEM32\SETUPAPI.DLL
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\WINTRUST.dll
+    C:\Windows\SYSTEM32\MSASN1.dll
+    C:\Windows\SYSTEM32\CRYPT32.dll
+    C:\Windows\SYSTEM32\MMDevAPI.DLL
+    C:\Windows\SYSTEM32\PROPSYS.dll
+    C:\Windows\SYSTEM32\OLEAUT32.dll
+    C:\Windows\SYSTEM32\wdmaud.drv
+    C:\Windows\SYSTEM32\ksuser.dll
+    C:\Windows\SYSTEM32\AVRT.dll
+    C:\Windows\SYSTEM32\AUDIOSES.DLL
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\msacm32.drv
+    C:\Windows\SYSTEM32\MSACM32.dll
+    C:\Windows\SYSTEM32\midimap.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:772d097c Ret=772cba40 Frame=00198c50 Stack=001987ec
+    Parameters (0x00198c74 0x001993ee 0x00000000 0x00198d20)
+    Unknown module, wcstombs() + 7132 byte(s)
+  1 .V PC=0023:772cba40 Ret=772cb9b8 Frame=00198c94 Stack=00198c58
+    Parameters (0x00a00fd2 0x000000cb 0x001993e8 0x00000000)
+    Unknown module, vsnwprintf() + 0160 byte(s)
+  2 .V PC=0023:772cb9b8 Ret=772a958c Frame=00198cb0 Stack=00198c9c
+    Parameters (0x00a00fd2 0x000000cb 0x001993e8 0x00198d20)
+    Unknown module, vsnwprintf() + 0024 byte(s)
+  3 .V PC=0023:772a958c Ret=772b148b Frame=00198cd4 Stack=00198cb8
+    Parameters (0x00198cf8 0x001993e8 0x00198d20 0x00000005)
+    Unknown module, RtlQueryPackageIdentity() + 0332 byte(s)
+  4 .V PC=0023:772b148b Ret=772b12ce Frame=00198d00 Stack=00198cdc
+    Parameters (0x00a00fd2 0x000000cc 0x00198d80 0x00000000)
+    Unknown module, RtlFormatMessageEx() + 1291 byte(s)
+  5 .V PC=0023:772b12ce Ret=75274890 Frame=00199430 Stack=00198d08
+    Parameters (0x00a00ef8 0x00000000 0x00199400 0x8e5ee601)
+    Unknown module, RtlFormatMessageEx() + 0846 byte(s)
+  6 .V PC=0023:75274890 Ret=75291a15 Frame=001994d0 Stack=00199438
+    Parameters (0x00a00ef8 0x00000000 0x00000400 0x0019a94c)
+    Unknown module, FormatMessageW() + 0352 byte(s)
+  7 .V PC=0023:75291a15 Ret=0042d631 Frame=00199518 Stack=001994d8
+    Parameters (0x00000500 0x0019954c 0x00000000 0x00000400)
+    Unknown module, FormatMessageA() + 0149 byte(s)
+  8 .V PC=0023:0042d631 Ret=0041ae16 Frame=0019a958 Stack=00199520
+    Parameters (0x000b0454 0x00000000 0x00001fdd 0x0000208c)
+    P:\ready\src\edgui.c, EdGUI_Message1 (), Line 1515+0040 byte(s)
+  9 .V PC=0023:0041ae16 Ret=00436627 Frame=0019c9d4 Stack=0019a960
+    Parameters (0x000b0454 0x0019d20c 0x00e08f98 0x00000000)
+    P:\ready\src\edfile.c, EdFile_SaveTextToFile (), Line 1346+0053 byte(s)
+ 10 .V PC=0023:00436627 Ret=004312d5 Frame=0019da34 Stack=0019c9dc
+    Parameters (0x000b0454 0x00000000 0x00000000 0x0019ded0)
+    P:\ready\src\eddisp.c, MyFileSave (), Line 6183+0047 byte(s)
+ 11 .V PC=0023:004312d5 Ret=0042fc22 Frame=0019de70 Stack=0019da3c
+    Parameters (0x000b0454 0x000003ed 0x0042f546 0x000103ed)
+    P:\ready\src\eddisp.c, MyCommandHandler (), Line 2912+0013 byte(s)
+ 12 .V PC=0023:0042fc22 Ret=0042f5a1 Frame=0019ded0 Stack=0019de78
+    Parameters (0x000b0454 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyCommonMessageHandler (), Line 3494+0019 byte(s)
+ 13 .V PC=0023:0042f5a1 Ret=754084e3 Frame=0019def8 Stack=0019ded8
+    Parameters (0x000b0454 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1968+0025 byte(s)
+ 14 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019df24 Stack=0019df00
+    Parameters (0x0042f546 0x000b0454 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 15 .V PC=0023:753e6c30 Ret=753e612a Frame=0019dfcc Stack=0019df2c
+    Parameters (0x0042f546 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 16 .V PC=0023:753e612a Ret=753fa274 Frame=0019e034 Stack=0019dfd4
+    Parameters (0x012d38e0 0x00000000 0x00000001 0x00000001)
+    Unknown module, SendMessageW() + 0922 byte(s)
+ 17 .V PC=0023:753fa274 Ret=004201f7 Frame=0019e054 Stack=0019e03c
+    Parameters (0x000b0454 0x00000111 0x000103ed 0x00000001)
+    Unknown module, SendMessageA() + 0084 byte(s)
+ 18 .V PC=0023:004201f7 Ret=754084e3 Frame=0019e08c Stack=0019e05c
+    Parameters (0x00040448 0x00000111 0x000103ed 0x00000000)
+    P:\ready\src\edwin.c, MyEditorWindowProcedure (), Line 1497+0032 byte(s)
+ 19 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019e0b8 Stack=0019e094
+    Parameters (0x0041ff99 0x00040448 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 20 .V PC=0023:753e6c30 Ret=753e6810 Frame=0019e160 Stack=0019e0c0
+    Parameters (0x0041ff99 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 21 .V PC=0023:753e6810 Ret=753ed159 Frame=0019e1c0 Stack=0019e168
+    Parameters (0x012d1680 0x00000000 0x00000111 0x000103ed)
+    Unknown module, DispatchMessageW() + 1328 byte(s)
+ 22 .V PC=0023:753ed159 Ret=772c8f36 Frame=0019e200 Stack=0019e1c8
+    Parameters (0x0019e21c 0x00000020 0x0019ff70 0x772c8e80)
+    Unknown module, PeekMessageW() + 1369 byte(s)
+ 23 .V PC=0023:772c8f36 Ret=004174e5 Frame=0019e258 Stack=0019e208
+    Parameters (0x00040448 0x01230495 0x0019e280 0x0019e27c)
+    Unknown module, KiUserCallbackDispatcher() + 0054 byte(s)
+ 24 .V PC=0023:004174e5 Ret=004174a1 Frame=0019e270 Stack=0019e260
+    Parameters (0x0019e280 0x0019e2a8 0x000b0454 0x00000100)
+    P:\ready\src\ed.c, MyProcessMessage (), Line 1850+0041 byte(s)
+ 25 .V PC=0023:004174a1 Ret=00415862 Frame=0019e2a0 Stack=0019e278
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    P:\ready\src\ed.c, MyProcessEvents (), Line 1826+0009 byte(s)
+ 26 .V PC=0023:00415862 Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x009c1b97 0x00000001)
+    P:\ready\src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 27 .V PC=0023:00401126 Ret=750938f4 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x00334000 0x750938d0 0x8c77b760 0x0019ffdc)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 28 .V PC=0023:750938f4 Ret=772b5663 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x00334000 0x8e5e8dbc 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+ 29 .V PC=0023:772b5663 Ret=772b562e Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x772dbb7d 0x00000000 0x00000000)
+    Unknown module, RtlUnicodeStringToInteger() + 0595 byte(s)
+ 30 .V PC=0023:772b562e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x00334000 0x00000000 0x78746341)
+    Unknown module, RtlUnicodeStringToInteger() + 0542 byte(s)
+
+------------------------------------------------------
+
+Crashed in Crash Handler!
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 5 2016 1:27 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    MIO_Init_Run called
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Object Allocated 20 5001
+    Object Allocated 20 5002
+    View/Window.Set called (graphics:568,285,nobuttonbar,position:450,300)
+    MIOWin_CreateWindowFromAttribs (GUI.T Run Window)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Substitute Run Window 440470 43040c (graphics:568,285,nobuttonbar,position:450,300)
+    Run Window Added 43040c 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: WM_ACTIVATE (W)
+    Stop Execution from Run Window
+    Kill Running Program
+    Object Freed -1
+    Debugger Notify Finalize Run
+    Object Freed 5001
+    Object Freed 5002
+    Find Next Error (1) - Text: 790254 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 790254 - Name: N:\Turing\support\lib\guiclass\WidgetModule.tu - Example: <null>
+    Set Turing Values - Window: 790254 - fileno: 0 - sizeptr: 0 - where: 53
+    Set New Text (1) - Text: 25d8f98 - size: 12513
+    Set New Text (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Turing Values - Window: 790254 - fileno: 39 - sizeptr: 68d570 - where: 52
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Open File (2) - fileno: 39 - sizeptr: 68d570
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 20 (x42)
+    Text - sz:456:14213 - slFr:10141 - slTo:10149 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 20 (x1)
+    Text - sz:456:14213 - slFr:10141 - slTo:10149 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 21
+    Text - sz:456:14213 - slFr:10141 - slTo:10149 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 21 (x1)
+    Text - sz:456:14213 - slFr:313:21:10150 - slTo:313:21:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 312 - C: 7
+    Text - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10105 - slTo:10105 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 25 (x55)
+    Text - sz:456:14213 - slFr:10105 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 25 (x1)
+    Text - sz:456:14213 - slFr:10105 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 25
+    Text - sz:456:14213 - slFr:10105 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 25 (x1)
+    Text - sz:456:14213 - slFr:313:21:10150 - slTo:313:21:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 12 (x1)
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 314 - C: 18
+    Text - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 25d8f98 - L: 312 - C: 0 (x43)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25d8f98 - ch: 8
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (1) - Text: 25d8f98
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (2) - From line: 312 - From col: 0 - To line: 314 - To col: 14
+    Delete Selection (3) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25d8f98 - ch: 8
+    Text - sz:454:14146 - slFr:312:0:10098 - slTo:312:0:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:453:14145 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25d8f98 - ch: 8
+    Text - sz:453:14145 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+    Keystroke (2) - sz:452:14144 - slFr:10096 - slTo:10096 - nlA:0
+    Line Starts: 449:14107 450:14126 451:14143 452:14144
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 790254 - SaveAs: 0 - Sel: 0 - fileno: 39 - sizeptr: 68d570
+
+
+Registers
+  EAX=7FFFFFFF  EBX=00000020  ECX=00000000  EDX=FFFFFFFF  ESI=00000005
+  EDI=00000000  EBP=00198C50  ESP=001987EC  EIP=772D097C  FLG=00010206
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    N:\Turing\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.10586.0_none_811bc0006c44242b\COMCTL32.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\shcore.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\windows.storage.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\powrprof.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\FirewallAPI.dll
+    C:\Windows\SYSTEM32\NETAPI32.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\winmmbase.dll
+    C:\Windows\SYSTEM32\DAVHLPR.DLL
+    C:\Windows\SYSTEM32\IMM32.DLL
+    C:\Windows\SYSTEM32\fwbase.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\SYSTEM32\psapi.dll
+    C:\Windows\SYSTEM32\ws2_32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_d3c2e4e965da4528\comctl32.DLL
+    C:\Windows\SYSTEM32\DINPUT.DLL
+    C:\Windows\SYSTEM32\HID.DLL
+    C:\Windows\SYSTEM32\SETUPAPI.DLL
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\WINTRUST.dll
+    C:\Windows\SYSTEM32\MSASN1.dll
+    C:\Windows\SYSTEM32\CRYPT32.dll
+    C:\Windows\SYSTEM32\MMDevAPI.DLL
+    C:\Windows\SYSTEM32\PROPSYS.dll
+    C:\Windows\SYSTEM32\OLEAUT32.dll
+    C:\Windows\SYSTEM32\wdmaud.drv
+    C:\Windows\SYSTEM32\ksuser.dll
+    C:\Windows\SYSTEM32\AVRT.dll
+    C:\Windows\SYSTEM32\AUDIOSES.DLL
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\msacm32.drv
+    C:\Windows\SYSTEM32\MSACM32.dll
+    C:\Windows\SYSTEM32\midimap.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:772d097c Ret=772cba40 Frame=00198c50 Stack=001987ec
+    Parameters (0x00198c74 0x001993ee 0x00000000 0x00198d20)
+    Unknown module, wcstombs() + 7132 byte(s)
+  1 .V PC=0023:772cba40 Ret=772cb9b8 Frame=00198c94 Stack=00198c58
+    Parameters (0x0090df2a 0x000000cb 0x001993e8 0x00000000)
+    Unknown module, vsnwprintf() + 0160 byte(s)
+  2 .V PC=0023:772cb9b8 Ret=772a958c Frame=00198cb0 Stack=00198c9c
+    Parameters (0x0090df2a 0x000000cb 0x001993e8 0x00198d20)
+    Unknown module, vsnwprintf() + 0024 byte(s)
+  3 .V PC=0023:772a958c Ret=772b148b Frame=00198cd4 Stack=00198cb8
+    Parameters (0x00198cf8 0x001993e8 0x00198d20 0x00000005)
+    Unknown module, RtlQueryPackageIdentity() + 0332 byte(s)
+  4 .V PC=0023:772b148b Ret=772b12ce Frame=00198d00 Stack=00198cdc
+    Parameters (0x0090df2a 0x000000cc 0x00198d80 0x00000000)
+    Unknown module, RtlFormatMessageEx() + 1291 byte(s)
+  5 .V PC=0023:772b12ce Ret=75274890 Frame=00199430 Stack=00198d08
+    Parameters (0x008d34c0 0x00000000 0x00199400 0xa596a201)
+    Unknown module, RtlFormatMessageEx() + 0846 byte(s)
+  6 .V PC=0023:75274890 Ret=75291a15 Frame=001994d0 Stack=00199438
+    Parameters (0x008d34c0 0x00000000 0x00000400 0x0019a94c)
+    Unknown module, FormatMessageW() + 0352 byte(s)
+  7 .V PC=0023:75291a15 Ret=0042d631 Frame=00199518 Stack=001994d8
+    Parameters (0x00000500 0x0019954c 0x00000000 0x00000400)
+    Unknown module, FormatMessageA() + 0149 byte(s)
+  8 .V PC=0023:0042d631 Ret=0041ae16 Frame=0019a958 Stack=00199520
+    Parameters (0x00790254 0x00000000 0x00001fdd 0x0000208c)
+    P:\ready\src\edgui.c, EdGUI_Message1 (), Line 1515+0040 byte(s)
+  9 .V PC=0023:0041ae16 Ret=00436627 Frame=0019c9d4 Stack=0019a960
+    Parameters (0x00790254 0x0019d20c 0x025d8f98 0x00000000)
+    P:\ready\src\edfile.c, EdFile_SaveTextToFile (), Line 1346+0053 byte(s)
+ 10 .V PC=0023:00436627 Ret=004312d5 Frame=0019da34 Stack=0019c9dc
+    Parameters (0x00790254 0x00000000 0x00000000 0x0019ded0)
+    P:\ready\src\eddisp.c, MyFileSave (), Line 6183+0047 byte(s)
+ 11 .V PC=0023:004312d5 Ret=0042fc22 Frame=0019de70 Stack=0019da3c
+    Parameters (0x00790254 0x000003ed 0x0042f546 0x000103ed)
+    P:\ready\src\eddisp.c, MyCommandHandler (), Line 2912+0013 byte(s)
+ 12 .V PC=0023:0042fc22 Ret=0042f5a1 Frame=0019ded0 Stack=0019de78
+    Parameters (0x00790254 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyCommonMessageHandler (), Line 3494+0019 byte(s)
+ 13 .V PC=0023:0042f5a1 Ret=754084e3 Frame=0019def8 Stack=0019ded8
+    Parameters (0x00790254 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1968+0025 byte(s)
+ 14 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019df24 Stack=0019df00
+    Parameters (0x0042f546 0x00790254 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 15 .V PC=0023:753e6c30 Ret=753e612a Frame=0019dfcc Stack=0019df2c
+    Parameters (0x0042f546 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 16 .V PC=0023:753e612a Ret=753fa274 Frame=0019e034 Stack=0019dfd4
+    Parameters (0x01153af0 0x00000000 0x00000001 0x00000001)
+    Unknown module, SendMessageW() + 0922 byte(s)
+ 17 .V PC=0023:753fa274 Ret=004201f7 Frame=0019e054 Stack=0019e03c
+    Parameters (0x00790254 0x00000111 0x000103ed 0x00000001)
+    Unknown module, SendMessageA() + 0084 byte(s)
+ 18 .V PC=0023:004201f7 Ret=754084e3 Frame=0019e08c Stack=0019e05c
+    Parameters (0x000f024e 0x00000111 0x000103ed 0x00000000)
+    P:\ready\src\edwin.c, MyEditorWindowProcedure (), Line 1497+0032 byte(s)
+ 19 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019e0b8 Stack=0019e094
+    Parameters (0x0041ff99 0x000f024e 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 20 .V PC=0023:753e6c30 Ret=753e6810 Frame=0019e160 Stack=0019e0c0
+    Parameters (0x0041ff99 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 21 .V PC=0023:753e6810 Ret=753ed159 Frame=0019e1c0 Stack=0019e168
+    Parameters (0x01138750 0x00000000 0x00000111 0x000103ed)
+    Unknown module, DispatchMessageW() + 1328 byte(s)
+ 22 .V PC=0023:753ed159 Ret=772c8f36 Frame=0019e200 Stack=0019e1c8
+    Parameters (0x0019e21c 0x00000020 0x0019ff70 0x772c8e80)
+    Unknown module, PeekMessageW() + 1369 byte(s)
+ 23 .V PC=0023:772c8f36 Ret=004174e5 Frame=0019e258 Stack=0019e208
+    Parameters (0x000f024e 0x103303ef 0x0019e280 0x0019e27c)
+    Unknown module, KiUserCallbackDispatcher() + 0054 byte(s)
+ 24 .V PC=0023:004174e5 Ret=004174a1 Frame=0019e270 Stack=0019e260
+    Parameters (0x0019e280 0x0019e2a8 0x00790254 0x00000100)
+    P:\ready\src\ed.c, MyProcessMessage (), Line 1850+0041 byte(s)
+ 25 .V PC=0023:004174a1 Ret=00415862 Frame=0019e2a0 Stack=0019e278
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    P:\ready\src\ed.c, MyProcessEvents (), Line 1826+0009 byte(s)
+ 26 .V PC=0023:00415862 Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x008d1b97 0x00000001)
+    P:\ready\src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 27 .V PC=0023:00401126 Ret=750938f4 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x00383000 0x750938d0 0xa7b01ab8 0x0019ffdc)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 28 .V PC=0023:750938f4 Ret=772b5663 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x00383000 0xa596c9bf 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+ 29 .V PC=0023:772b5663 Ret=772b562e Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x772dbb4c 0x00000000 0x00000000)
+    Unknown module, RtlUnicodeStringToInteger() + 0595 byte(s)
+ 30 .V PC=0023:772b562e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x00383000 0x00000000 0x78746341)
+    Unknown module, RtlUnicodeStringToInteger() + 0542 byte(s)
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 5 2016 1:27 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    MIO_Init_Run called
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Object Allocated 20 5001
+    Object Allocated 20 5002
+    View/Window.Set called (graphics:568,285,nobuttonbar,position:450,300)
+    MIOWin_CreateWindowFromAttribs (GUI.T Run Window)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Substitute Run Window 440470 43040c (graphics:568,285,nobuttonbar,position:450,300)
+    Run Window Added 43040c 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: WM_ACTIVATE (W)
+    Stop Execution from Run Window
+    Kill Running Program
+    Object Freed -1
+    Debugger Notify Finalize Run
+    Object Freed 5001
+    Object Freed 5002
+    Find Next Error (1) - Text: 790254 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 790254 - Name: N:\Turing\support\lib\guiclass\WidgetModule.tu - Example: <null>
+    Set Turing Values - Window: 790254 - fileno: 0 - sizeptr: 0 - where: 53
+    Set New Text (1) - Text: 25d8f98 - size: 12513
+    Set New Text (2) - sz:456:14213 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Turing Values - Window: 790254 - fileno: 39 - sizeptr: 68d570 - where: 52
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Goto Error - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Open File (2) - fileno: 39 - sizeptr: 68d570
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 20 (x42)
+    Text - sz:456:14213 - slFr:10141 - slTo:10149 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 20 (x1)
+    Text - sz:456:14213 - slFr:10141 - slTo:10149 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 21
+    Text - sz:456:14213 - slFr:10141 - slTo:10149 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 21 (x1)
+    Text - sz:456:14213 - slFr:313:21:10150 - slTo:313:21:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 312 - C: 7
+    Text - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10105 - slTo:10105 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 25 (x55)
+    Text - sz:456:14213 - slFr:10105 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 25 (x1)
+    Text - sz:456:14213 - slFr:10105 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 25
+    Text - sz:456:14213 - slFr:10105 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 25 (x1)
+    Text - sz:456:14213 - slFr:313:21:10150 - slTo:313:21:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 313 - C: 12
+    Text - sz:456:14213 - slFr:10150 - slTo:10150 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 313 - C: 12 (x1)
+    Text - sz:456:14213 - slFr:313:12:10141 - slTo:313:12:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d8f98 - L: 314 - C: 18
+    Text - sz:456:14213 - slFr:10141 - slTo:10141 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Set Selection (2) - sz:456:14213 - slFr:10165 - slTo:10165 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Extend Selection - Text: 25d8f98 - L: 312 - C: 0 (x43)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d8f98 - L: 312 - C: 0 (x1)
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25d8f98 - ch: 8
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (1) - Text: 25d8f98
+    Text - sz:456:14213 - slFr:10165 - slTo:10098 - nlA:0
+    Line Starts: 453:14176 454:14195 455:14212 456:14213
+    Delete Selection (2) - From line: 312 - From col: 0 - To line: 314 - To col: 14
+    Delete Selection (3) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:454:14146 - slFr:10098 - slTo:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25d8f98 - ch: 8
+    Text - sz:454:14146 - slFr:312:0:10098 - slTo:312:0:10098 - nlA:0
+    Line Starts: 451:14109 452:14128 453:14145 454:14146
+    Keystroke (2) - sz:453:14145 - slFr:10097 - slTo:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25d8f98 - ch: 8
+    Text - sz:453:14145 - slFr:311:0:10097 - slTo:311:0:10097 - nlA:0
+    Line Starts: 450:14108 451:14127 452:14144 453:14145
+    Keystroke (2) - sz:452:14144 - slFr:10096 - slTo:10096 - nlA:0
+    Line Starts: 449:14107 450:14126 451:14143 452:14144
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 790254 - SaveAs: 0 - Sel: 0 - fileno: 39 - sizeptr: 68d570
+
+
+Registers
+  EAX=7FFFFFFF  EBX=00000020  ECX=00000000  EDX=FFFFFFFF  ESI=00000005
+  EDI=00000000  EBP=00198C50  ESP=001987EC  EIP=772D097C  FLG=00010206
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    N:\Turing\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.10586.0_none_811bc0006c44242b\COMCTL32.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\shcore.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\windows.storage.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\powrprof.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\FirewallAPI.dll
+    C:\Windows\SYSTEM32\NETAPI32.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\winmmbase.dll
+    C:\Windows\SYSTEM32\DAVHLPR.DLL
+    C:\Windows\SYSTEM32\IMM32.DLL
+    C:\Windows\SYSTEM32\fwbase.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\SYSTEM32\psapi.dll
+    C:\Windows\SYSTEM32\ws2_32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_d3c2e4e965da4528\comctl32.DLL
+    C:\Windows\SYSTEM32\DINPUT.DLL
+    C:\Windows\SYSTEM32\HID.DLL
+    C:\Windows\SYSTEM32\SETUPAPI.DLL
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\WINTRUST.dll
+    C:\Windows\SYSTEM32\MSASN1.dll
+    C:\Windows\SYSTEM32\CRYPT32.dll
+    C:\Windows\SYSTEM32\MMDevAPI.DLL
+    C:\Windows\SYSTEM32\PROPSYS.dll
+    C:\Windows\SYSTEM32\OLEAUT32.dll
+    C:\Windows\SYSTEM32\wdmaud.drv
+    C:\Windows\SYSTEM32\ksuser.dll
+    C:\Windows\SYSTEM32\AVRT.dll
+    C:\Windows\SYSTEM32\AUDIOSES.DLL
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\msacm32.drv
+    C:\Windows\SYSTEM32\MSACM32.dll
+    C:\Windows\SYSTEM32\midimap.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:772d097c Ret=772cba40 Frame=00198c50 Stack=001987ec
+    Parameters (0x00198c74 0x001993ee 0x00000000 0x00198d20)
+    Unknown module, wcstombs() + 7132 byte(s)
+  1 .V PC=0023:772cba40 Ret=772cb9b8 Frame=00198c94 Stack=00198c58
+    Parameters (0x0090df2a 0x000000cb 0x001993e8 0x00000000)
+    Unknown module, vsnwprintf() + 0160 byte(s)
+  2 .V PC=0023:772cb9b8 Ret=772a958c Frame=00198cb0 Stack=00198c9c
+    Parameters (0x0090df2a 0x000000cb 0x001993e8 0x00198d20)
+    Unknown module, vsnwprintf() + 0024 byte(s)
+  3 .V PC=0023:772a958c Ret=772b148b Frame=00198cd4 Stack=00198cb8
+    Parameters (0x00198cf8 0x001993e8 0x00198d20 0x00000005)
+    Unknown module, RtlQueryPackageIdentity() + 0332 byte(s)
+  4 .V PC=0023:772b148b Ret=772b12ce Frame=00198d00 Stack=00198cdc
+    Parameters (0x0090df2a 0x000000cc 0x00198d80 0x00000000)
+    Unknown module, RtlFormatMessageEx() + 1291 byte(s)
+  5 .V PC=0023:772b12ce Ret=75274890 Frame=00199430 Stack=00198d08
+    Parameters (0x008d34c0 0x00000000 0x00199400 0xa596a201)
+    Unknown module, RtlFormatMessageEx() + 0846 byte(s)
+  6 .V PC=0023:75274890 Ret=75291a15 Frame=001994d0 Stack=00199438
+    Parameters (0x008d34c0 0x00000000 0x00000400 0x0019a94c)
+    Unknown module, FormatMessageW() + 0352 byte(s)
+  7 .V PC=0023:75291a15 Ret=0042d631 Frame=00199518 Stack=001994d8
+    Parameters (0x00000500 0x0019954c 0x00000000 0x00000400)
+    Unknown module, FormatMessageA() + 0149 byte(s)
+  8 .V PC=0023:0042d631 Ret=0041ae16 Frame=0019a958 Stack=00199520
+    Parameters (0x00790254 0x00000000 0x00001fdd 0x0000208c)
+    P:\ready\src\edgui.c, EdGUI_Message1 (), Line 1515+0040 byte(s)
+  9 .V PC=0023:0041ae16 Ret=00436627 Frame=0019c9d4 Stack=0019a960
+    Parameters (0x00790254 0x0019d20c 0x025d8f98 0x00000000)
+    P:\ready\src\edfile.c, EdFile_SaveTextToFile (), Line 1346+0053 byte(s)
+ 10 .V PC=0023:00436627 Ret=004312d5 Frame=0019da34 Stack=0019c9dc
+    Parameters (0x00790254 0x00000000 0x00000000 0x0019ded0)
+    P:\ready\src\eddisp.c, MyFileSave (), Line 6183+0047 byte(s)
+ 11 .V PC=0023:004312d5 Ret=0042fc22 Frame=0019de70 Stack=0019da3c
+    Parameters (0x00790254 0x000003ed 0x0042f546 0x000103ed)
+    P:\ready\src\eddisp.c, MyCommandHandler (), Line 2912+0013 byte(s)
+ 12 .V PC=0023:0042fc22 Ret=0042f5a1 Frame=0019ded0 Stack=0019de78
+    Parameters (0x00790254 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyCommonMessageHandler (), Line 3494+0019 byte(s)
+ 13 .V PC=0023:0042f5a1 Ret=754084e3 Frame=0019def8 Stack=0019ded8
+    Parameters (0x00790254 0x00000111 0x000103ed 0x00000001)
+    P:\ready\src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1968+0025 byte(s)
+ 14 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019df24 Stack=0019df00
+    Parameters (0x0042f546 0x00790254 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 15 .V PC=0023:753e6c30 Ret=753e612a Frame=0019dfcc Stack=0019df2c
+    Parameters (0x0042f546 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 16 .V PC=0023:753e612a Ret=753fa274 Frame=0019e034 Stack=0019dfd4
+    Parameters (0x01153af0 0x00000000 0x00000001 0x00000001)
+    Unknown module, SendMessageW() + 0922 byte(s)
+ 17 .V PC=0023:753fa274 Ret=004201f7 Frame=0019e054 Stack=0019e03c
+    Parameters (0x00790254 0x00000111 0x000103ed 0x00000001)
+    Unknown module, SendMessageA() + 0084 byte(s)
+ 18 .V PC=0023:004201f7 Ret=754084e3 Frame=0019e08c Stack=0019e05c
+    Parameters (0x000f024e 0x00000111 0x000103ed 0x00000000)
+    P:\ready\src\edwin.c, MyEditorWindowProcedure (), Line 1497+0032 byte(s)
+ 19 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019e0b8 Stack=0019e094
+    Parameters (0x0041ff99 0x000f024e 0x00000111 0x000103ed)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+ 20 .V PC=0023:753e6c30 Ret=753e6810 Frame=0019e160 Stack=0019e0c0
+    Parameters (0x0041ff99 0x00000000 0x00000111 0x000103ed)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+ 21 .V PC=0023:753e6810 Ret=753ed159 Frame=0019e1c0 Stack=0019e168
+    Parameters (0x01138750 0x00000000 0x00000111 0x000103ed)
+    Unknown module, DispatchMessageW() + 1328 byte(s)
+ 22 .V PC=0023:753ed159 Ret=772c8f36 Frame=0019e200 Stack=0019e1c8
+    Parameters (0x0019e21c 0x00000020 0x0019ff70 0x772c8e80)
+    Unknown module, PeekMessageW() + 1369 byte(s)
+ 23 .V PC=0023:772c8f36 Ret=004174e5 Frame=0019e258 Stack=0019e208
+    Parameters (0x000f024e 0x103303ef 0x0019e280 0x0019e27c)
+    Unknown module, KiUserCallbackDispatcher() + 0054 byte(s)
+ 24 .V PC=0023:004174e5 Ret=004174a1 Frame=0019e270 Stack=0019e260
+    Parameters (0x0019e280 0x0019e2a8 0x00790254 0x00000100)
+    P:\ready\src\ed.c, MyProcessMessage (), Line 1850+0041 byte(s)
+ 25 .V PC=0023:004174a1 Ret=00415862 Frame=0019e2a0 Stack=0019e278
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    P:\ready\src\ed.c, MyProcessEvents (), Line 1826+0009 byte(s)
+ 26 .V PC=0023:00415862 Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x008d1b97 0x00000001)
+    P:\ready\src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 27 .V PC=0023:00401126 Ret=750938f4 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x00383000 0x750938d0 0xa7b01ab8 0x0019ffdc)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 28 .V PC=0023:750938f4 Ret=772b5663 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x00383000 0xa596c9bf 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+ 29 .V PC=0023:772b5663 Ret=772b562e Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x772dbb4c 0x00000000 0x00000000)
+    Unknown module, RtlUnicodeStringToInteger() + 0595 byte(s)
+ 30 .V PC=0023:772b562e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x00383000 0x00000000 0x78746341)
+    Unknown module, RtlUnicodeStringToInteger() + 0542 byte(s)
+
+------------------------------------------------------
+
+Crashed in Crash Handler!
+
+Crashed in Crash Handler!
+*** FATAL INTERNAL ERROR in Turing ***
+Date: Dec 6 2016 1:04 PM
+
+File Name: N:\Turing\turing.exe
+Version: 4.1  [IBM/11]
+File Size: 3059755
+File Date: Feb 5 2005 7:56 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Previous Operations:
+    Undo (2) - Undo size: 19 - Repl from: 687 - Repl to: 687
+    Insert Text (1) - Text: db8f98 - size: 19 - clean: 1
+    Text - sz:87:2527 - slFr:30:0:687 - slTo:30:0:687 - nlA:0
+    Line Starts: 84:2482 85:2487 86:2518 87:2527
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:87:2546 - slFr:706 - slTo:706 - nlA:0
+    Line Starts: 84:2501 85:2506 86:2537 87:2546
+    Undo (3) - sz:87:2546 - slFr:869 - slTo:869 - nlA:0
+    Line Starts: 84:2501 85:2506 86:2537 87:2546
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:87:2546 - slFr:37:28:869 - slTo:37:28:869 - nlA:0
+    Line Starts: 84:2501 85:2506 86:2537 87:2546
+    Undo (2) - Undo size: 12 - Repl from: 869 - Repl to: 869
+    Insert Text (1) - Text: db8f98 - size: 12 - clean: 1
+    Text - sz:87:2546 - slFr:37:28:869 - slTo:37:28:869 - nlA:0
+    Line Starts: 84:2501 85:2506 86:2537 87:2546
+    Insert Text (2) - numNewLines: 1
+    Insert Text (3) - sz:88:2558 - slFr:881 - slTo:881 - nlA:0
+    Line Starts: 85:2513 86:2518 87:2549 88:2558
+    Undo (3) - sz:88:2558 - slFr:910 - slTo:910 - nlA:0
+    Line Starts: 85:2513 86:2518 87:2549 88:2558
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:88:2558 - slFr:38:40:910 - slTo:38:40:910 - nlA:0
+    Line Starts: 85:2513 86:2518 87:2549 88:2558
+    Undo (2) - Undo size: 1 - Repl from: 910 - Repl to: 910
+    Insert Text (1) - Text: db8f98 - size: 1 - clean: 1
+    Text - sz:88:2558 - slFr:38:40:910 - slTo:38:40:910 - nlA:0
+    Line Starts: 85:2513 86:2518 87:2549 88:2558
+    Insert Text (2) - numNewLines: 1
+    Insert Text (3) - sz:89:2559 - slFr:911 - slTo:911 - nlA:0
+    Line Starts: 86:2514 87:2519 88:2550 89:2559
+    Undo (3) - sz:89:2559 - slFr:911 - slTo:911 - nlA:0
+    Line Starts: 86:2514 87:2519 88:2550 89:2559
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:89:2559 - slFr:39:0:911 - slTo:39:0:911 - nlA:0
+    Line Starts: 86:2514 87:2519 88:2550 89:2559
+    Undo (2) - Undo size: 19 - Repl from: 911 - Repl to: 911
+    Insert Text (1) - Text: db8f98 - size: 19 - clean: 1
+    Text - sz:89:2559 - slFr:39:0:911 - slTo:39:0:911 - nlA:0
+    Line Starts: 86:2514 87:2519 88:2550 89:2559
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:89:2578 - slFr:930 - slTo:930 - nlA:0
+    Line Starts: 86:2533 87:2538 88:2569 89:2578
+    Undo (3) - sz:89:2578 - slFr:1076 - slTo:1076 - nlA:0
+    Line Starts: 86:2533 87:2538 88:2569 89:2578
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:89:2578 - slFr:44:94:1076 - slTo:44:94:1076 - nlA:0
+    Line Starts: 86:2533 87:2538 88:2569 89:2578
+    Undo (2) - Undo size: 12 - Repl from: 1076 - Repl to: 1076
+    Insert Text (1) - Text: db8f98 - size: 12 - clean: 1
+    Text - sz:89:2578 - slFr:44:94:1076 - slTo:44:94:1076 - nlA:0
+    Line Starts: 86:2533 87:2538 88:2569 89:2578
+    Insert Text (2) - numNewLines: 1
+    Insert Text (3) - sz:90:2590 - slFr:1088 - slTo:1088 - nlA:0
+    Line Starts: 87:2545 88:2550 89:2581 90:2590
+    Undo (3) - sz:90:2590 - slFr:1112 - slTo:1112 - nlA:0
+    Line Starts: 87:2545 88:2550 89:2581 90:2590
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:90:2590 - slFr:45:35:1112 - slTo:45:35:1112 - nlA:0
+    Line Starts: 87:2545 88:2550 89:2581 90:2590
+    Undo (2) - Undo size: 1 - Repl from: 1112 - Repl to: 1112
+    Insert Text (1) - Text: db8f98 - size: 1 - clean: 1
+    Text - sz:90:2590 - slFr:45:35:1112 - slTo:45:35:1112 - nlA:0
+    Line Starts: 87:2545 88:2550 89:2581 90:2590
+    Insert Text (2) - numNewLines: 1
+    Insert Text (3) - sz:91:2591 - slFr:1113 - slTo:1113 - nlA:0
+    Line Starts: 88:2546 89:2551 90:2582 91:2591
+    Undo (3) - sz:91:2591 - slFr:1113 - slTo:1113 - nlA:0
+    Line Starts: 88:2546 89:2551 90:2582 91:2591
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:91:2591 - slFr:46:0:1113 - slTo:46:0:1113 - nlA:0
+    Line Starts: 88:2546 89:2551 90:2582 91:2591
+    Undo (2) - Undo size: 19 - Repl from: 1113 - Repl to: 1113
+    Insert Text (1) - Text: db8f98 - size: 19 - clean: 1
+    Text - sz:91:2591 - slFr:46:0:1113 - slTo:46:0:1113 - nlA:0
+    Line Starts: 88:2546 89:2551 90:2582 91:2591
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:91:2610 - slFr:1132 - slTo:1132 - nlA:0
+    Line Starts: 88:2565 89:2570 90:2601 91:2610
+    Undo (3) - sz:91:2610 - slFr:1290 - slTo:1290 - nlA:0
+    Line Starts: 88:2565 89:2570 90:2601 91:2610
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:91:2610 - slFr:53:23:1290 - slTo:53:23:1290 - nlA:0
+    Line Starts: 88:2565 89:2570 90:2601 91:2610
+    Undo (2) - Undo size: 12 - Repl from: 1290 - Repl to: 1290
+    Insert Text (1) - Text: db8f98 - size: 12 - clean: 1
+    Text - sz:91:2610 - slFr:53:23:1290 - slTo:53:23:1290 - nlA:0
+    Line Starts: 88:2565 89:2570 90:2601 91:2610
+    Insert Text (2) - numNewLines: 1
+    Insert Text (3) - sz:92:2622 - slFr:1302 - slTo:1302 - nlA:0
+    Line Starts: 89:2577 90:2582 91:2613 92:2622
+    Undo (3) - sz:92:2622 - slFr:1540 - slTo:1540 - nlA:0
+    Line Starts: 89:2577 90:2582 91:2613 92:2622
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:92:2622 - slFr:62:3:1540 - slTo:62:3:1540 - nlA:0
+    Line Starts: 89:2577 90:2582 91:2613 92:2622
+    Undo (2) - Undo size: 1 - Repl from: 1540 - Repl to: 1540
+    Insert Text (1) - Text: db8f98 - size: 1 - clean: 1
+    Text - sz:92:2622 - slFr:62:3:1540 - slTo:62:3:1540 - nlA:0
+    Line Starts: 89:2577 90:2582 91:2613 92:2622
+    Insert Text (2) - numNewLines: 1
+    Insert Text (3) - sz:93:2623 - slFr:1541 - slTo:1541 - nlA:0
+    Line Starts: 90:2578 91:2583 92:2614 93:2623
+    Undo (3) - sz:93:2623 - slFr:1541 - slTo:1541 - nlA:0
+    Line Starts: 90:2578 91:2583 92:2614 93:2623
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:93:2623 - slFr:63:0:1541 - slTo:63:0:1541 - nlA:0
+    Line Starts: 90:2578 91:2583 92:2614 93:2623
+    Undo (2) - Undo size: 19 - Repl from: 1541 - Repl to: 1541
+    Insert Text (1) - Text: db8f98 - size: 19 - clean: 1
+    Text - sz:93:2623 - slFr:63:0:1541 - slTo:63:0:1541 - nlA:0
+    Line Starts: 90:2578 91:2583 92:2614 93:2623
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:93:2642 - slFr:1560 - slTo:1560 - nlA:0
+    Line Starts: 90:2597 91:2602 92:2633 93:2642
+    Undo (3) - sz:93:2642 - slFr:1783 - slTo:1783 - nlA:0
+    Line Starts: 90:2597 91:2602 92:2633 93:2642
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: db8f98 - Undo: 0
+    Text - sz:93:2642 - slFr:73:13:1783 - slTo:73:13:1783 - nlA:0
+    Line Starts: 90:2597 91:2602 92:2633 93:2642
+    Undo (2) - Undo size: 12 - Repl from: 1783 - Repl to: 1783
+    Insert Text (1) - Text: db8f98 - size: 12 - clean: 1
+    Text - sz:93:2642 - slFr:73:13:1783 - slTo:73:13:1783 - nlA:0
+    Line Starts: 90:2597 91:2602 92:2633 93:2642
+    Insert Text (2) - numNewLines: 1
+    Insert Text (3) - sz:94:2654 - slFr:1795 - slTo:1795 - nlA:0
+    Line Starts: 91:2609 92:2614 93:2645 94:2654
+    Undo (3) - sz:94:2654 - slFr:1795 - slTo:1795 - nlA:0
+    Line Starts: 91:2609 92:2614 93:2645 94:2654
+  CMD: WM_INITMENU (W)
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "H:\Computer Studies\Practice Programs\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = LoadString failed (-572662307) (6002)
+   Windows error = The specified resource name cannot be found in the image file. (1814)
+   File = P:\ready\src\edgui.c
+   Line = 1435
+
+All unsaved open files will be saved with a ".sav" or ".sv#" extension.
+
+List of Modules: 
+    N:\Turing\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.10586.0_none_811bc0006c44242b\COMCTL32.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\shcore.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\windows.storage.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\powrprof.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\FirewallAPI.dll
+    C:\Windows\SYSTEM32\NETAPI32.dll
+    C:\Windows\SYSTEM32\winmmbase.dll
+    C:\Windows\SYSTEM32\DAVHLPR.DLL
+    C:\Windows\SYSTEM32\IMM32.DLL
+    C:\Windows\SYSTEM32\fwbase.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\SYSTEM32\psapi.dll
+    C:\Windows\SYSTEM32\ws2_32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_d3c2e4e965da4528\comctl32.DLL
+    C:\Windows\SYSTEM32\DINPUT.DLL
+    C:\Windows\SYSTEM32\HID.DLL
+    C:\Windows\SYSTEM32\SETUPAPI.DLL
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\WINTRUST.dll
+    C:\Windows\SYSTEM32\MSASN1.dll
+    C:\Windows\SYSTEM32\CRYPT32.dll
+    C:\Windows\SYSTEM32\MMDevAPI.DLL
+    C:\Windows\SYSTEM32\PROPSYS.dll
+    C:\Windows\SYSTEM32\OLEAUT32.dll
+    C:\Windows\SYSTEM32\wdmaud.drv
+    C:\Windows\SYSTEM32\ksuser.dll
+    C:\Windows\SYSTEM32\AVRT.dll
+    C:\Windows\SYSTEM32\AUDIOSES.DLL
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\msacm32.drv
+    C:\Windows\SYSTEM32\MSACM32.dll
+    C:\Windows\SYSTEM32\midimap.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:772c6ccc Ret=7526dff2 Frame=0019af84 Stack=0019af14
+    Parameters (0x00000334 0x00003a98 0x00000000 0x0019d834)
+    Unknown module, ZwWaitForSingleObject() + 0012 byte(s)
+  1 .V PC=0023:7526dff2 Ret=0041d5e5 Frame=0019af98 Stack=0019af8c
+    Parameters (0x00000334 0x00003a98 0x0019e05c 0x0019d874)
+    Unknown module, WaitForSingleObject() + 0018 byte(s)
+  2 .V PC=0023:0041d5e5 Ret=0041ca58 Frame=0019d834 Stack=0019afa0
+    Parameters (0x00000001 0x00001772 0x005640d8 0x0000059b)
+    P:\ready\src\edfail.c, MyFailErrorBox (), Line 0987+0020 byte(s)
+  3 .V PC=0023:0041ca58 Ret=0042d394 Frame=0019d85c Stack=0019d83c
+    Parameters (0x00001772 0x005640d8 0x0000059b 0x00000716)
+    P:\ready\src\edfail.c, EdFail_Fatal (), Line 0494+0027 byte(s)
+  4 .V PC=0023:0042d394 Ret=0042248d Frame=0019d880 Stack=0019d864
+    Parameters (0xdddddddd 0x0019e008 0x00000050 0x0041ff99)
+    P:\ready\src\edgui.c, EdGUI_LoadString (), Line 1436+0040 byte(s)
+  5 .V PC=0023:0042248d Ret=00420329 Frame=0019e05c Stack=0019d888
+    Parameters (0x00020436 0x05870251 0x05870251 0x00000116)
+    P:\ready\src\edwin.c, MyMenusAdjust (), Line 2693+0018 byte(s)
+  6 .V PC=0023:00420329 Ret=754084e3 Frame=0019e08c Stack=0019e064
+    Parameters (0x00020436 0x00000116 0x05870251 0x00000000)
+    P:\ready\src\edwin.c, MyEditorWindowProcedure (), Line 1551+0013 byte(s)
+  7 .V PC=0023:754084e3 Ret=753e6c30 Frame=0019e0b8 Stack=0019e094
+    Parameters (0x0041ff99 0x00020436 0x00000116 0x05870251)
+    Unknown module, SetManipulationInputTarget() + 0083 byte(s)
+  8 .V PC=0023:753e6c30 Ret=753e6810 Frame=0019e160 Stack=0019e0c0
+    Parameters (0x0041ff99 0x00000000 0x00000116 0x05870251)
+    Unknown module, CallWindowProcW() + 0768 byte(s)
+  9 .V PC=0023:753e6810 Ret=753ed159 Frame=0019e1c0 Stack=0019e168
+    Parameters (0x0123b800 0x00000000 0x00000116 0x05870251)
+    Unknown module, DispatchMessageW() + 1328 byte(s)
+ 10 .V PC=0023:753ed159 Ret=772c8f36 Frame=0019e200 Stack=0019e1c8
+    Parameters (0x0019e21c 0x00000020 0x0019ff70 0x772c8e80)
+    Unknown module, PeekMessageW() + 1369 byte(s)
+ 11 .V PC=0023:772c8f36 Ret=004174e5 Frame=0019e258 Stack=0019e208
+    Parameters (0x00020436 0x0005042f 0x0019e280 0x0019e27c)
+    Unknown module, KiUserCallbackDispatcher() + 0054 byte(s)
+ 12 .V PC=0023:004174e5 Ret=004174a1 Frame=0019e270 Stack=0019e260
+    Parameters (0x0019e280 0x0019e2a8 0x000603b2 0x00000100)
+    P:\ready\src\ed.c, MyProcessMessage (), Line 1850+0041 byte(s)
+ 13 .V PC=0023:004174a1 Ret=00415862 Frame=0019e2a0 Stack=0019e278
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    P:\ready\src\ed.c, MyProcessEvents (), Line 1826+0009 byte(s)
+ 14 .V PC=0023:00415862 Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x00811b8f 0x00000001)
+    P:\ready\src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 15 .V PC=0023:00401126 Ret=750938f4 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x0027f000 0x750938d0 0x4564135b 0x0019ffdc)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 16 .V PC=0023:750938f4 Ret=772b5663 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x0027f000 0x47420b84 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+ 17 .V PC=0023:772b5663 Ret=772b562e Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x772dbb60 0x00000000 0x00000000)
+    Unknown module, RtlUnicodeStringToInteger() + 0595 byte(s)
+ 18 .V PC=0023:772b562e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x0027f000 0x00000000 0x78746341)
+    Unknown module, RtlUnicodeStringToInteger() + 0542 byte(s)
+
+
+------------------------------------------------------
+
+Crashed in Crash Handler!
