@@ -1,0 +1,5 @@
+Customer 1: connor,1052 Frost Street,North Bay,CA,p1b6c9
+Customer 1: c,c,c,c,p1b 6c9
+Customer c: c,c,c,p1b 6c9
+Customer Connor: 1052 Frost Street,North Bay,ON,P1B 6C9
+Customer c: c,c,c,p1b 6c9
