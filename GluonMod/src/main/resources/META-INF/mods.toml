@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="gluon"
+version="1.0.0"
+displayName="Gluon"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="cdwc25, MCreator"
+
+[[dependencies.gluon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

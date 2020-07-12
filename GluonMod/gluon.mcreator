@@ -1,0 +1,106 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CarnaxOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnax_ore"
+    },
+    {
+      "name": "Carnax",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnax"
+    },
+    {
+      "name": "CarnaxGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnax_gem"
+    },
+    {
+      "name": "CarnaxOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnax_ore_recipe"
+    },
+    {
+      "name": "CarnaxBlockRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnax_block_recipe"
+    },
+    {
+      "name": "CarnaxGemRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnax_gem_recipe"
+    },
+    {
+      "name": "CrenderMan",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crender_man"
+    },
+    {
+      "name": "Emerald",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.gluon.carnax_gem": "Carnax Gem",
+      "block.gluon.carnax": "Block of Carnax",
+      "item.gluon.crender_man": "Crenderman Spawn Egg",
+      "item.gluon.emerald": "Emerald Portal Igniter",
+      "block.gluon.carnax_ore": "Carnax Ore",
+      "entity.gluon.crender_man": "Crenderman"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "gluon",
+    "modName": "Gluon",
+    "version": "1.0.0",
+    "author": "cdwc25, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.15.2",
+    "modElementsPackage": "net.mcreator.gluon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000316610
+}

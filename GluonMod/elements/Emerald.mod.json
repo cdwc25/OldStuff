@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "Blocks.EMERALD_BLOCK"
+    },
+    "portalParticles": {
+      "value": "SLIME"
+    },
+    "portalLuminance": 1.0,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Emerald Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "carnaxgem",
+    "portalTexture": "carnax",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "badlands"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.EMERALD_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_LAVA"
+    },
+    "airColor": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

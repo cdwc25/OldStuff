@@ -1,0 +1,37 @@
+{
+  "group": "gluon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    },
+    {
+      "item": "gluon:carnax_gem"
+    }
+  ],
+  "result": {
+    "item": "gluon:carnax",
+    "count": 1
+  }
+}
