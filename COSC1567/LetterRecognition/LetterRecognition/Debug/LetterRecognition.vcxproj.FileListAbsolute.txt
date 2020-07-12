@@ -1,0 +1,2 @@
+D:\GitHub\LetterRecognitionV2\LetterRecognition\Debug\LetterRecognition.exe
+D:\GitHub\LetterRecognitionV2\LetterRecognition\Debug\LetterRecognition.pdb
